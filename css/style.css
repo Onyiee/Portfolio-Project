@@ -1,0 +1,212 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    margin: 3% 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    color: #ff5678;
+    font-size: 20px;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.links ul li {
+    padding-left: 1rem;
+}
+
+
+.links ul li a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 18px;
+}
+
+.color-background {
+    background-color: #ff5678;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 13px;
+    margin-left: 12px;
+    margin-top: -10px;
+    border-radius: 5px;
+}
+.color-background li a {
+    color: white !important;
+}
+
+.main {
+    display: flex;
+}
+
+.main-right {
+    
+}
+
+.main-left {
+   width: 70%;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+
+.main-left-social{
+    display: flex;
+
+}
+
+.social-left {
+   
+    
+}
+
+.social-right {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+    padding-top: .5rem;
+}
+.social-right a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.social-right a img {
+    width: 20px;
+}
+
+.btn {
+    background-color: #ff5678;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    outline: none;
+    padding: .7rem 1rem;
+}
+
+.middle {
+    display: flex;
+}
+
+.middle-right {
+ margin-left: 6rem;
+}
+
+.high-jump-photo {
+    width: 60%;
+    margin-left: 4rem;
+}
+
+.middle-left {
+    width: 75%;
+    padding: 2rem;
+    line-height: 1.5rem;
+}
+
+.more-work-experience {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more-work-experience div {
+    width: 33%;
+}
+
+.more-work-experience div h4 {
+    font-weight: 100;
+    color: gray;
+}
+
+.work-experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-experience p {
+  padding-top: 10px;
+  padding-right: 5px;
+  margin-right: 50px;
+  color: gray;
+
+}
+
+span{
+    color: #ff5678;
+}
+
+.gray-color {
+    color: gray;
+}
+
+p {
+    color: black;
+    font-weight: 500;
+}
+
+.more-skillset {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skillset {
+    box-shadow: 0 5px 8px -2px  black;
+    padding: 1rem 1rem;
+    width: 25%;
+}
+
+.images {
+    display: grid;
+   grid-template-areas:
+    "a a"
+   "b c"
+   "d e";
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr;
+}
+
+.bicyle-rider{
+    width: 99%;
+    grid-area: a;
+    padding-bottom: 10px;
+}
+
+.busy-streets {
+    grid-area: b;
+    padding: 10px 10px;
+}
+
+.tall-buildings {
+    grid-area: c;
+    padding: 10px 10px;
+}
+
+.painted-wall {
+    grid-area: d;
+    padding: 10px 10px;
+}
+
+.masked-up {
+    grid-area: e;
+    padding: 10px 10px;
+}
+
+.dribble-account {
+    display: flex;
+}
+
+.dribble-image {
+    padding-left: 10px;
+}
