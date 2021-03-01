@@ -205,8 +205,15 @@ p {
 
 .dribble-account {
     display: flex;
+    padding-top: 20px;
 }
 
-.dribble-image {
-    padding-left: 10px;
+ .dribble-image {
+    width: 5%;
+    padding-top: 10px;
+  
+} 
+
+.dribble-paragraph {
+ width: 95%;   
 }
