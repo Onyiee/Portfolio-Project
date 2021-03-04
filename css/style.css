@@ -162,8 +162,9 @@ p {
 }
 
 .skillset {
-    box-shadow: 0 5px 8px -2px  black;
+    box-shadow: 3px 3px 5px  rgb(190, 188, 188);
     padding: 1rem 1rem;
+    border-radius: 5px;
     width: 25%;
 }
 
@@ -216,4 +217,51 @@ p {
 
 .dribble-paragraph {
  width: 95%;   
+}
+
+.pen-ultimate {
+    display: flex;
+    
+}
+
+.pen-ultimate-left {
+    width: 60%;
+}
+
+.pen-ultimate {
+  margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    /* border: 1px solid red; */
+}
+.dribble, .instagram, .linkedIn {
+ /* border: 1px solid red; */
+ margin-right: 20px;
+ margin-bottom: 10px;
+ width: 40px;
+}
+.dribble{
+    margin-right: 20px;
+}
+.instagram{
+    margin-right: 8px;
+    margin-left: 7px;
+}
+.linkedIn{
+    margin-right: 10px;
+}
+
+.footer {
+    background-color:#ff5678;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
 }
